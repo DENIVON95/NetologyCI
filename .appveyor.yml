@@ -11,7 +11,7 @@ build: off
 
 install:
   - java -jar ./artifacts/app-mbank.jar &
+  - chmod +x gradle
 
 build_script:
   - gradle test
-  - gradle --version
