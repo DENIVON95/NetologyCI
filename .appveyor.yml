@@ -10,8 +10,8 @@ branches:
 build: off
 
 install:
-  - gradle wrapper --gradle-version 6.0
   - java -jar ./artifacts/app-mbank.jar &
 
 build_script:
+  - gradle test
   - gradle --version
