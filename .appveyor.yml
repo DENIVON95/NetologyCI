@@ -14,4 +14,5 @@ install:
 
 build_script:
   - gradle wrapper --gradle-version 6.0
+  - gradle --version
   - gradle test --info
