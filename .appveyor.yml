@@ -10,9 +10,8 @@ branches:
 build: off
 
 install:
-  - java -jar ./gradle/wrapper/gradle-wrapper.jar
   - java -jar ./artifacts/app-mbank.jar &
   - chmod +x gradle
 
 build_script:
-  - gradle --version
+  - gradle test --info
