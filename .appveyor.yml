@@ -14,5 +14,4 @@ install:
   - chmod +x gradle
 
 build_script:
-  - gradle wrapper --gradle-version 5.0 &
   - gradle test --info
