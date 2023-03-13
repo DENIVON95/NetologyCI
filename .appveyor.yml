@@ -1,5 +1,5 @@
 image:
-  - Visual Studio 2019
+  - Ubuntu
 
 stack: jdk 11
 
@@ -10,9 +10,9 @@ branches:
 build: off
 
 install:
-  - choco install gradle -version 3.4.1
   - java -jar ./artifacts/app-mbank.jar &
   - chmod +x gradle
 
 build_script:
+  - gradle wrapper --gradle-version 4.9
   - gradle test --info
