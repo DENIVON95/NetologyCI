@@ -1,4 +1,4 @@
-image: Ubuntu
+image: Visual Studio 2022
 
 stack: jdk 11
 
@@ -12,4 +12,4 @@ install:
   - java -jar ./artifacts/app-mbank.jar &
 
 build_script:
-  - gradlew test --info
+  - /.gradlew test --info
