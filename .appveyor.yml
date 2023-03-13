@@ -14,5 +14,5 @@ install:
   - chmod +x gradle
 
 build_script:
-  - gradle wrapper --gradle-version 4.9
+  - gradle wrapper --gradle-version 7.0
   - gradle test --info
